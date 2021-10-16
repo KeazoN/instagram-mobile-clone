@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+body{
+	background-color: #000;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.1rem 0.8rem;
+	border-bottom: 1px solid #fff;
+	background-color: #000;
+	position: sticky;
+	top: 0;
+}
+header .logo img{
+	width: 100px;
+	height: auto;
+}
+
+header .icon {
+	display: flex;
+	align-items: center;
+}
+
+header .icon i{
+	color: #fff;
+	margin-left: 15px;
+	font-size: 1.3em;
+}
+
+nav{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 0.5rem 0.5rem;
+	height: auto;
+	border-top: 1px solid #fff;
+	background-color: #000;
+	position: fixed;
+}
+
+nav .menu img{
+	width: 30px;
+	height: auto;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+nav .menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #fff;
+}
+
+.active{
+	color: rgba(255, 0, 0, 1);
+}
+
+nav .menu i{
+	font-size: 1.5em;
+}
+
+.story{
+	padding: 0.3rem 0rem;
+	overflow: auto;
+}
+
+.story .story-h{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.story .story-h .story-hersey:nth-child(1){
+	margin-left: 10px;
+}
+
+.story .story-h .story-hersey{
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.story .story-h .story-hersey .picture img{
+	width: 55px;
+	height: 55px;
+	object-fit: cover;
+	border-radius: 50%;
+	padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+	background: linear-gradient(70deg, rgba(255,220,128,1) 5%, rgba(252,175,69,1) 15%, rgba(247,119,55,1) 25%, rgba(245,96,64,1) 35%, rgba(253,29,29,1) 45%, rgba(225,48,108,1) 55%, rgba(193,53,132,1) 65%, rgba(131,58,180,1) 75%, rgba(88,81,216,1) 85%, rgba(64,93,230,1) 95%);
+}
+
+.story .story-h .story-hersey .text h5{
+	margin-top: 2px;
+	font-size: 0.7em;
+	font-weight: 200;
+	color: #fff;
+}
+
+.post{
+	padding: 0.5rem;
+}
+
+.post-hersey:nth-child(1){
+	margin-top: 10px;
+}
+
+.post-hersey:last-child{
+	margin-bottom: 4rem;
+}
+
+.post-hersey{
+	margin-top: 30px;
+}
+
+.post .post-h{
+	display: flex;
+	flex-direction: column;
+}
+
+.post-bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.post-sol-bottom{
+	display: flex;
+	align-items: center;
+}
+
+.post-bilgi{
+	margin-left: 8px;
+}
+
+.post-pp img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.post-picture{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.post-picture img{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.post-text{
+	display: flex;
+	flex-direction: column;
+}
+
+.post-icon{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.one i{
+	margin-right: 10px;
+	font-size: 1.3em;
+}
+
+.two i{
+	font-size: 1.3em;
+}
+
+.post-like{
+	margin-bottom: 5px;
+}
+
+.post-name{
+	display: flex;
+	align-items: center;
+}
+
+.post-name h5{
+	font-size: 0.9em;
+}
+
+.post-name p{
+	font-size: 0.8em;
+	margin-left: 8px; 
+}
